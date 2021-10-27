@@ -4,7 +4,7 @@
         <TargetFramework>net5.0</TargetFramework>
         <Title>RedisIO</Title>
         <PackageId>RedisIO</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Orlov Dmitry, Sharafeev Ravil, Dzhunishaliev Alexander, Haibullin Bulat</Authors>
         <Copyright>Copyright (c) 2021 Orlov Dmitry, Sharafeev Ravil, Dzhunishaliev Alexander, Haibullin Bulat</Copyright>
         <PackageProjectUrl>https://github.com/ITIS-MICROSERVICES-2021/RedisIO</PackageProjectUrl>
@@ -18,6 +18,7 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
       <PackageReference Include="StackExchange.Redis" Version="2.2.79" />
     </ItemGroup>
 
