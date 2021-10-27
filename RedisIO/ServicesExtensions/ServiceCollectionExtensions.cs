@@ -23,9 +23,10 @@ namespace RedisIO.ServicesExtensions
             services.AddSingleton<IRedisIOService>(redis);
         }
 
-        public static void UseJsonConverter(this RedisOptionsBuilder<JsonRedisConverter> builder)
+        public static RedisOptionsBuilder<JsonRedisConverter> UseJsonConverter(this RedisOptionsBuilder<JsonRedisConverter> builder)
         {
             builder.UseCustomConverter(() => new JsonRedisConverter());
+            return builder;
         }
     }
 

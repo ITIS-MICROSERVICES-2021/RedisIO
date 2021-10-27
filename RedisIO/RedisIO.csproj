@@ -4,7 +4,7 @@
         <TargetFramework>net5.0</TargetFramework>
         <Title>RedisIO</Title>
         <PackageId>RedisIO</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Authors>Orlov Dmitry, Sharafeev Ravil, Dzhunishaliev Alexander, Haibullin Bulat</Authors>
         <Copyright>Copyright (c) 2021 Orlov Dmitry, Sharafeev Ravil, Dzhunishaliev Alexander, Haibullin Bulat</Copyright>
         <PackageProjectUrl>https://github.com/ITIS-MICROSERVICES-2021/RedisIO</PackageProjectUrl>
@@ -13,7 +13,7 @@
         <PackageTags>Redis;StackExchange.Redis</PackageTags>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.2</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
